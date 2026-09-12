@@ -35,7 +35,7 @@ echo -e "${GREEN}
 sleep 2
 echo -e "[+] Professional hacking environment automation script.${RESET}"
 sleep 1
-echo -e "[+] @afsh4ck - Follow me on: YouTube, Instagram, TikTok"
+echo -e "[+] @th3g3ntl3m4n84 - Instagram: https://www.instagram.com/jpfdevs.pentest/ | X: https://x.com/th3g3ntl3m4n84 | GitHub: https://github.com/th3g3ntl3m4n84 | YouTube: https://www.youtube.com/channel/UCinTBc1pNs1UTKJB7Qvbdqw"
 sleep 3
 echo -e "\n${BLUE}[*] Setting up the installation..${RESET}\n"
 sleep 3
