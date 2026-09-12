@@ -21,7 +21,7 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 # WALLPAPER
-feh --bg-fill ~/Wallpapers/wallpaper.*
+feh --bg-fill ~/Wallpapers/jpfdevs01.png
 
 # POLYBAR
 ~/.config/polybar/launch.sh --forest
@@ -29,8 +29,10 @@ feh --bg-fill ~/Wallpapers/wallpaper.*
 # CUSTOM
 bspc config focus_follows_pointer true
 
-# Resolución Full HD
-xrandr --output Virtual1 --mode 1920x1080
+# Resolution is handled dynamically by open-vm-tools-desktop (vmwgfx
+# auto-resize) to match the VMware host window/monitor, so no fixed
+# xrandr mode is forced here. This is what lets a 4K host fill the guest
+# display instead of being locked to 1920x1080.
 
 # PICOM
 picom &
