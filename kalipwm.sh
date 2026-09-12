@@ -97,6 +97,14 @@ mv /tmp/fonts/*.ttf ~/.local/share/fonts/
 rm -rf /tmp/fonts
 fc-cache -fv
 
+# Install Share Tech Mono Nerd Font (used by polybar)
+mkdir -p /tmp/fonts
+wget -q --show-progress https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/ShareTechMono.zip -O /tmp/fonts/ShareTechMono.zip
+unzip -q /tmp/fonts/ShareTechMono.zip -d /tmp/fonts
+mv /tmp/fonts/*.ttf ~/.local/share/fonts/
+rm -rf /tmp/fonts
+fc-cache -fv
+
 # Install oh-my-zsh
 echo -e "\n${BLUE}[*] Installing OhMyZSH..${RESET}\n"
 rm -rf ~/.oh-my-zsh
