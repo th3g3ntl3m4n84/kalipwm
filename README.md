@@ -11,7 +11,7 @@ Deploy a professional hacking environment for Kali Linux by running just one scr
 - Tested on Kali Linux 2025.1 with VMware, VirtualBox, and bare metal.
 
 ```
-git clone https://github.com/afsh4ck/kalipwm.git
+git clone https://github.com/th3g3ntl3m4n84/kalipwm.git
 cd kalipwm
 bash kalipwm.sh
 sudo reboot
